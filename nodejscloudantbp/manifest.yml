@@ -6,6 +6,8 @@ declared-services:
 applications:
 - name: sample-nodejs-cloudant
   random-route: false
+  routes:
+  - route: ad-nodejs-cloudant-test.mybluemix.net
   memory: 256M
   services:
   - sample-nodejs-cloudant-cloudantNoSQLDB
